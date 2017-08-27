@@ -21,9 +21,6 @@ class MongoPipeline(object):
         
     def process_item(self, item, spider):
         
-        # Cleaning type data
-        item['type'] = item['type'][0]
-        
         # Cleaning author data
         if 'author' not in item:
             item['author'] = 'No Author'
@@ -40,6 +37,11 @@ class MongoPipeline(object):
         
         # Cleaning article text data
         item['text'] = ''.join(item['text'])
+        
+        # Cleaning type data
+        item['type'] = item['type'][0]
+        if "Review" in item['title']:
+            item['type'] = "Opinion"
         
         self.collection.insert(dict(item))
         return item
