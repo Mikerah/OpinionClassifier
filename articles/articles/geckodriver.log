@@ -1,0 +1,129 @@
+1503792471790	geckodriver	INFO	geckodriver 0.18.0
+1503792471797	geckodriver	INFO	Listening on 127.0.0.1:60343
+1503792473829	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503792478233	Marionette	INFO	Listening on port 60349
+1503792479087	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503792915505	Marionette	INFO	Ceased listening
+tte	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503792558961	Marionette	INFO	Listening on port 58691
+1503792559795	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503792898599	Marionette	INFO	Ceased listening
+0
+1503792663856	geckodriver	INFO	Listening on 127.0.0.1:58719
+1503792665903	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503792671444	Marionette	INFO	Listening on port 58726
+1503792672029	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503792734105	geckodriver	INFO	geckodriver 0.18.0
+1503792734112	geckodriver	INFO	Listening on 127.0.0.1:58791
+1503792736157	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503792741285	Marionette	INFO	Listening on port 58797
+1503792741741	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503792971112	geckodriver	INFO	geckodriver 0.18.0
+1503792971119	geckodriver	INFO	Listening on 127.0.0.1:55016
+1503792973181	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503792977682	Marionette	INFO	Listening on port 55022
+1503792978404	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503792997172	geckodriver	INFO	geckodriver 0.18.0
+1503792997179	geckodriver	INFO	Listening on 127.0.0.1:55079
+1503792999214	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503793003138	Marionette	INFO	Listening on port 55085
+1503793003568	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503793039566	Marionette	INFO	Ceased listening
+1503793115935	geckodriver	INFO	geckodriver 0.18.0
+1503793115941	geckodriver	INFO	Listening on 127.0.0.1:56148
+1503793117975	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503793122080	Marionette	INFO	Listening on port 56154
+1503793122355	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503793256597	geckodriver	INFO	geckodriver 0.18.0
+1503793256597	geckodriver	INFO	Listening on 127.0.0.1:56214
+1503793258628	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503793262639	Marionette	INFO	Listening on port 56220
+1503793263277	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503793591972	geckodriver	INFO	geckodriver 0.18.0
+1503793591978	geckodriver	INFO	Listening on 127.0.0.1:56366
+1503793594078	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503793598530	Marionette	INFO	Listening on port 56372
+1503793599295	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503793606187	Marionette	INFO	Ceased listening
+1503793630528	geckodriver	INFO	geckodriver 0.18.0
+1503793630528	geckodriver	INFO	Listening on 127.0.0.1:53737
+1503793632591	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503793637499	Marionette	INFO	Listening on port 53743
+1503793638101	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503793653415	Marionette	INFO	Ceased listening
+1503793790722	geckodriver	INFO	geckodriver 0.18.0
+1503793790728	geckodriver	INFO	Listening on 127.0.0.1:53773
+1503793792764	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503793796938	Marionette	INFO	Listening on port 53779
+1503793797985	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503793851646	Marionette	INFO	Ceased listening
+1503794103498	geckodriver	INFO	geckodriver 0.18.0
+1503794103505	geckodriver	INFO	Listening on 127.0.0.1:53832
+1503794105542	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503794110088	Marionette	INFO	Listening on port 53838
+1503794110885	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503794305372	geckodriver	INFO	geckodriver 0.18.0
+1503794305378	geckodriver	INFO	Listening on 127.0.0.1:53920
+1503794307416	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503794311495	Marionette	INFO	Listening on port 53926
+1503794312185	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503794798548	geckodriver	INFO	geckodriver 0.18.0
+1503794798563	geckodriver	INFO	Listening on 127.0.0.1:54088
+1503794800579	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503794804157	Marionette	INFO	Listening on port 54094
+1503794804657	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503794832605	Marionette	INFO	Ceased listening
+1503794835542	geckodriver	INFO	geckodriver 0.18.0
+1503794835542	geckodriver	INFO	Listening on 127.0.0.1:56540
+1503794837589	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503794841373	Marionette	INFO	Listening on port 56546
+1503794841849	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503794882363	Marionette	INFO	Ceased listening
+0
+1503794881691	geckodriver	INFO	Listening on 127.0.0.1:63407
+1503794883723	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503794887656	Marionette	INFO	Listening on port 63414
+1503794888006	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503794922164	Marionette	INFO	Ceased listening
+1503794925026	geckodriver	INFO	geckodriver 0.18.0
+1503794925034	geckodriver	INFO	Listening on 127.0.0.1:57539
+1503794927068	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503794931299	Marionette	INFO	Listening on port 57545
+1503794932287	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503795076950	geckodriver	INFO	geckodriver 0.18.0
+1503795076956	geckodriver	INFO	Listening on 127.0.0.1:57618
+1503795079033	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503795083207	Marionette	INFO	Listening on port 57624
+1503795084252	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://query.nytimes.com/search/sitesearch/js/common.js, line 223: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1503795116111	Marionette	INFO	Ceased listening
