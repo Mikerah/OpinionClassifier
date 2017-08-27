@@ -1710,3 +1710,88 @@ A coding exception was thrown and uncaught in a Task.
 Full message: TypeError: NetworkError when attempting to fetch resource.
 Full stack: 
 *************************
+1503867157532	Marionette	INFO	Ceased listening
+0
+1503867136445	geckodriver	INFO	Listening on 127.0.0.1:55637
+1503867138513	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503867142744	Marionette	INFO	Listening on port 55661
+1503867143742	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Load timeout for modules: foundation/hosts,auth/growl,article/story/main
+http://requirejs.org/docs/errors.html#timeout
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+1503867222279	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Load timeout for modules: foundation/hosts,auth/growl,https://static01.nyt.com/newsgraphics/2016/08/24/medal/4f8688447d2cfcf45aa170342cadb270adf83765/build.js,shared/interactive/instances/app-communicator,article/story/main
+http://requirejs.org/docs/errors.html#timeout
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cdn.optimizely.com/public/3013110282/s/article_prod.js, line 1278: TypeError: payload is null
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: uncaught exception: CustomError: Jsloader error (code #1): Timeout reached for loading script //www.google.com/js/bg/zdoxsoviFY57ELPj3UUbIshUC7tsOCibMurkRe1KkQc.js
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html, line 15: ReferenceError: buildAdSlot is not defined
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html, line 15: ReferenceError: buildImageAd is not defined
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html, line 15: TypeError: _.t is not a function
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html, line 15: ReferenceError: registerAd is not defined
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/jsonview/converter-sniffer.js, line 68: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://c.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://a1.nyt.com/assets/blogs/20170823-151959/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/blogs/20170823-151959/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/blogs/20170823-151959/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/blogs/20170823-151959/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cdn.optimizely.com/public/3013110282/s/article_prod.js, line 1278: TypeError: payload is null
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a1.nyt.com/assets/article/20170816-103801/js/foundation/lib/framework.js, line 1: Error: Script error
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://c.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.optimizely.com/public/3013110282/s/article_prod.js, line 1278: TypeError: payload is null
+JavaScript error: https://cdn.optimizely.com/public/3013110282/s/article_prod.js, line 1278: TypeError: payload is null

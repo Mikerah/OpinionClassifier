@@ -28,6 +28,12 @@ class ArticlesSpider(CrawlSpider):
     def parse_index_url(self ,response):
         selector = Selector(text=response.body)
         for article_url in selector.css("ul#headlines li a").xpath("@href").extract():
+            # If the article is not in english don't process
+            if selector.xpath('//html/@lang').extract_first() not in ["en"]:
+                continue
+            # Particular edge case for korean articles
+            elif '/universal/ko' in selector.xpath('//link/@href').extract_first():
+                continue
             # Go to everything link in the index page and call self.parse_article_page
             request = Request(article_url, callback=self.parse_article_page)
             yield request
