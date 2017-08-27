@@ -1795,3 +1795,23 @@ http://requirejs.org/docs/errors.html#scripterror
 JavaScript error: https://c.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239, line 1: NS_ERROR_NOT_INITIALIZED: 
 JavaScript error: https://cdn.optimizely.com/public/3013110282/s/article_prod.js, line 1278: TypeError: payload is null
 JavaScript error: https://cdn.optimizely.com/public/3013110282/s/article_prod.js, line 1278: TypeError: payload is null
+1503872987095	geckodriver	INFO	geckodriver 0.18.0
+1503872987102	geckodriver	INFO	Listening on 127.0.0.1:58556
+1503872989145	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503872994276	Marionette	INFO	Listening on port 58562
+1503872994721	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+a Firefox\firefox.exe with args ["-marionette"]
+1503873221297	Marionette	INFO	Listening on port 58620
+1503873222261	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
