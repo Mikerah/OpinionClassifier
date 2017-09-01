@@ -39,7 +39,7 @@ class ArticlesSpider(CrawlSpider):
         # Store scraped data into ItemLoader object
         item_loader = ItemLoader(item=Article(),response=response)
         item_loader.add_value('url',response.url)
-        item_loader.add_xpath('type', '//meta[@itemprop="articleSection"]/@content')
+        item_loader.add_xpath('type', '//meta[@property="article:top-level-section"]/@content')
         item_loader.add_xpath('title', '//meta[@name="hdl"]/@content')
         item_loader.add_xpath('author', '//meta[@name="author"]/@content')
         item_loader.add_xpath('text', '//p/text()')

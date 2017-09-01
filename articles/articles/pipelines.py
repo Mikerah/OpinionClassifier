@@ -5,7 +5,9 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import pymongo
+import hashlib
 from scrapy.conf import settings
+from scrapy.exceptions import DropItem
         
 class MongoPipeline(object):
     """
@@ -18,9 +20,10 @@ class MongoPipeline(object):
         )
         db = connection[settings['MONGODB_DB']]
         self.collection = db[settings['MONGODB_COLLECTION']]
+        self.ids_seen = set()
         
     def process_item(self, item, spider):
-        
+        # Clean data
         # Cleaning author data
         if 'author' not in item:
             item['author'] = 'No Author'
@@ -40,10 +43,16 @@ class MongoPipeline(object):
         
         # Cleaning type data
         item['type'] = item['type'][0]
-        if "Review" in item['title']:
-            item['type'] = "Opinion"
         
-        self.collection.insert(dict(item))
-        return item
+        # Create unique identifier for article 
+        item['id'] = hashlib.sha256(item['url'].encode()).hexdigest()
+        
+        # Check if there is a duplicate article
+        if item['id'] in self.ids_seen:
+            raise DropItem("Duplicate Article")
+        else:
+            self.ids_seen.add(item['id'])
+            self.collection.insert(dict(item))
+            return item
         
         
