@@ -37,3 +37,8 @@ for i in all_articles_collection.find({}):
         
 # Remove Non-English articles from collection
 all_articles_collection.delete_many({'type':'universal'})
+
+# Separate 'opinion', 'us' and 'world' articles into a separate collection
+news_and_opinion_collection = pymongo.collection.Collection(nyt_database,'news_and_opinion_articles')
+for article in all_articles_collection.find({'$or' :[{'type':'opinion'},{'type':'us'}, {'type':'world'}]}):
+    news_and_opinion_collection.insert(article)
