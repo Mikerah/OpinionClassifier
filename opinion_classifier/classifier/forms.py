@@ -1,5 +1,4 @@
-from django.forms import Form, CharField
+from django import forms
 
-class ArticleForm(Form):
-    class Meta:
-        article_url = CharField(max_length=100, required=True)
+class ArticleForm(forms.Form):
+    article_url = forms.CharField(max_length=250, required=True)
