@@ -51,6 +51,9 @@ def index(request):
 def results(request):
     article_url = request.session['article_url']
     article = Article.object.get(url=article_url)
+    
+def report(request):
+    return render(request, 'classifier/report.html')
             
             
             
