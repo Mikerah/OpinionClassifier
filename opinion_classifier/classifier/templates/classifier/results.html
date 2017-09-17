@@ -1,0 +1,35 @@
+{% load_bootstrap4 %}
+{% bootstrap_css %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Opinion Classifier: Results</title>
+    </head>
+    
+    <header>
+        <ul class="nav nav-tabs">
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation"><a href="{% url 'report' %}">Report</a></li>
+        </ul>
+    </header>
+    
+    <body>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Classifier</th>
+              <th>Prediction</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for key, value in predictions.items %}
+            <tr>
+              <td>{{key}}</td>
+              <td>{{value}}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+    </body>
+</html>

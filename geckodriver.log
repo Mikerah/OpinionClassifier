@@ -1,0 +1,92 @@
+1505179417993	geckodriver	INFO	geckodriver 0.18.0
+1505179417993	geckodriver	INFO	Listening on 127.0.0.1:50559
+1505179419915	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505179421344	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505179422513	Marionette	INFO	Enabled via --marionette
+[Child 4448] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4448] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505179427569	Marionette	INFO	Listening on port 50565
+1505179427648	Marionette	INFO	Listening on port 50565
+1505179428204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505179428263	Marionette	DEBUG	loaded listener.js
+[GPU 2480] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 539: TypeError: this.tablesData[table] is undefined
+1505179433010	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 5876] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505179433012	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1505398267290	geckodriver	INFO	geckodriver 0.18.0
+1505398267290	geckodriver	INFO	Listening on 127.0.0.1:60934
+1505398269353	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505398270456	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505398271705	Marionette	INFO	Enabled via --marionette
+[Child 5564] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5564] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505398277743	Marionette	INFO	Listening on port 60940
+1505398277789	Marionette	INFO	Listening on port 60940
+1505398277891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505398277974	Marionette	DEBUG	loaded listener.js
+[GPU 6824] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7224] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505398285446	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1505398285449	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1505398294369	geckodriver	INFO	geckodriver 0.18.0
+1505398294369	geckodriver	INFO	Listening on 127.0.0.1:60970
+1505398296509	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505398296963	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505398297712	Marionette	INFO	Enabled via --marionette
+1505398301878	Marionette	INFO	Listening on port 60976
+1505398301889	Marionette	INFO	Listening on port 60976
+1505398301953	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505398301993	Marionette	DEBUG	loaded listener.js
+1505398326004	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505398326619	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505398326620	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505398327807	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398329827	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398329834	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330010	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330051	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/recaptcha/api2/anchor?k=6LeN0R4TAAAAACwPa5WX2QYE0npOf2-2veTOm2Tp&co=aHR0cHM6Ly93d3cubnl0aW1lcy5jb206NDQz&hl=en&v=r20170912115959&size=normal&cb=nlj5izxtf2uz"
+1505398330116	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330120	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330121	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330127	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://a3013110282.cdn.optimizely.com/client_storage/a3013110282.html"
+1505398330179	Marionette	DEBUG	Received DOM event "pageshow" for "https://a3013110282.cdn.optimizely.com/client_storage/a3013110282.html"
+1505398330252	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330253	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330254	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330256	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330257	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330258	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330523	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967322"
+JavaScript error: https://static01.nyt.com/js/mtr.js, line 2: Error: checkStringWithRegexp(): both params should be specified
+1505398330696	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/recaptcha/api2/anchor?k=6LeN0R4TAAAAACwPa5WX2QYE0npOf2-2veTOm2Tp&co=aHR0cHM6Ly93d3cubnl0aW1lcy5jb206NDQz&hl=en&v=r20170912115959&size=normal&cb=nlj5izxtf2uz"
+1505398330752	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330828	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398330848	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://js-sec.indexww.com/um/ixmatch.html"
+1505398330860	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+1505398330866	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398331186	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com/recaptcha/api2/bframe?hl=en&v=r20170912115959&k=6LeN0R4TAAAAACwPa5WX2QYE0npOf2-2veTOm2Tp#laxe5k5lp5qe"
+1505398331187	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com/recaptcha/api2/bframe?hl=en&v=r20170912115959&k=6LeN0R4TAAAAACwPa5WX2QYE0npOf2-2veTOm2Tp#laxe5k5lp5qe"
+1505398331268	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398331269	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398331372	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ssum-sec.casalemedia.com/usermatch?s=184674&cb=https%3A%2F%2Fjs-sec.indexww.com%2Fht%2Fhtw-pixel.gif%3F&C=1"
+1505398332020	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398332674	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398335060	Marionette	DEBUG	Received DOM event "pageshow" for "https://ssum-sec.casalemedia.com/usermatch?s=184674&cb=https%3A%2F%2Fjs-sec.indexww.com%2Fht%2Fhtw-pixel.gif%3F&C=1"
+1505398335062	Marionette	DEBUG	Received DOM event "pageshow" for "https://js-sec.indexww.com/um/ixmatch.html"
+1505398335063	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505398335206	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.nytimes.com/2017/09/11/opinion/south-slavery-confederate-states.html?action=click&contentCollection=opinion&region=rank&module=package&version=highlights&contentPlacement=4&pgtype=sectionfront"
+1505402060550	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 6416] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6416] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 316] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 316] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

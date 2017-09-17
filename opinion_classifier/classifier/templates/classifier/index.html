@@ -1,0 +1,27 @@
+{% load bootstrap4 %}
+{% bootstrap_css %}
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Opinion Classifier</title>
+    </head>
+    
+    <header>
+        <ul class="nav nav-tabs">
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation"><a href="{% url 'report' %}">Report</a></li>
+        </ul>
+    </header>
+    
+    <body>
+        <form action="." method="post">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit", value="Classify">
+        </form>
+            
+    </body>
+    
+</html>
